@@ -1,7 +1,7 @@
 {
   "url" : "http://ess.e-servicesuite.com",
   "identifier" : "com.e-servicesuite.ess",
-  "version" : "0.0.29",
+  "version" : "0.0.31",
   "name" : "eSS online",
   "description" : "e-Service Suite online hybrid app",
   "iosEnabled" : false,
@@ -15,7 +15,7 @@
     "contacts" : false,
     "microphone" : false,
     "geoLocation" : true,
-    "push" : true
+    "push" : false
   },
   "theme" : {
     "background" : null,

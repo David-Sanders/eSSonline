@@ -2,7 +2,7 @@
 <widget xmlns = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
         id        = "com.e-servicesuite.ess"
-        version   = "0.0.30" >
+        version   = "0.0.32" >
 
     <name>eSS online</name>
 
@@ -63,7 +63,6 @@
         <plugin name="cordova-plugin-geolocation" source="npm" spec="4.0.1" />
 
 
-        <plugin name="phonegap-plugin-push" source="npm" spec="2.2.3" />
 
 
         <!-- The gradle build tool is required for the phonegap-plugin-push -->
@@ -90,19 +89,9 @@
                 <!-- Icon definitions - for more details: http://developer.android.com/guide/topics/resources/providing-resources.html -->
                     <icon src="res/android/icon-72-hdpi.png" density="hdpi"/>
                 <!-- Icon definitions - for more details: http://developer.android.com/guide/topics/resources/providing-resources.html -->
-                    <icon src="res/android/icon-192-xxxhdpi.png" density="xxxhdpi"/>
-                <!-- Icon definitions - for more details: http://developer.android.com/guide/topics/resources/providing-resources.html -->
-                    <splash src="res/android/screen-hdpi-landscape.png" density="land-hdpi"/>
-                <!-- Icon definitions - for more details: http://developer.android.com/guide/topics/resources/providing-resources.html -->
-                    <splash src="res/android/screen-ldpi-landscape.png" density="land-ldpi"/>
-                <!-- Icon definitions - for more details: http://developer.android.com/guide/topics/resources/providing-resources.html -->
-                    <icon src="res/android/icon-48-mdpi.png" density="mdpi"/>
-                <!-- Icon definitions - for more details: http://developer.android.com/guide/topics/resources/providing-resources.html -->
-                    <icon src="res/android/icon-96-xhdpi.png" density="xhdpi"/>
-                <!-- Icon definitions - for more details: http://developer.android.com/guide/topics/resources/providing-resources.html -->
-                    <splash src="res/android/screen-xhdpi-portrait.png" density="port-xhdpi"/>
-                <!-- Icon definitions - for more details: http://developer.android.com/guide/topics/resources/providing-resources.html -->
                     <splash src="res/android/screen-ldpi-portrait.png" density="port-ldpi"/>
+                <!-- Icon definitions - for more details: http://developer.android.com/guide/topics/resources/providing-resources.html -->
+                    <icon src="res/android/icon-192-xxxhdpi.png" density="xxxhdpi"/>
                 <!-- Icon definitions - for more details: http://developer.android.com/guide/topics/resources/providing-resources.html -->
                     <splash src="res/android/screen-xxhdpi-landscape.png" density="land-xxhdpi"/>
                 <!-- Icon definitions - for more details: http://developer.android.com/guide/topics/resources/providing-resources.html -->
@@ -112,14 +101,22 @@
                 <!-- Icon definitions - for more details: http://developer.android.com/guide/topics/resources/providing-resources.html -->
                     <icon src="res/android/icon-36-ldpi.png" density="ldpi"/>
                 <!-- Icon definitions - for more details: http://developer.android.com/guide/topics/resources/providing-resources.html -->
+                    <splash src="res/android/screen-hdpi-landscape.png" density="land-hdpi"/>
+                <!-- Icon definitions - for more details: http://developer.android.com/guide/topics/resources/providing-resources.html -->
+                    <splash src="res/android/screen-ldpi-landscape.png" density="land-ldpi"/>
+                <!-- Icon definitions - for more details: http://developer.android.com/guide/topics/resources/providing-resources.html -->
                     <splash src="res/android/screen-hdpi-portrait.png" density="port-hdpi"/>
+                <!-- Icon definitions - for more details: http://developer.android.com/guide/topics/resources/providing-resources.html -->
+                    <icon src="res/android/icon-48-mdpi.png" density="mdpi"/>
                 <!-- Icon definitions - for more details: http://developer.android.com/guide/topics/resources/providing-resources.html -->
                     <splash src="res/android/screen-xhdpi-landscape.png" density="land-xhdpi"/>
                 <!-- Icon definitions - for more details: http://developer.android.com/guide/topics/resources/providing-resources.html -->
                     <splash src="res/android/screen-xxxhdpi-portrait.png" density="port-xxxhdpi"/>
+                <!-- Icon definitions - for more details: http://developer.android.com/guide/topics/resources/providing-resources.html -->
+                    <icon src="res/android/icon-96-xhdpi.png" density="xhdpi"/>
+                <!-- Icon definitions - for more details: http://developer.android.com/guide/topics/resources/providing-resources.html -->
+                    <splash src="res/android/screen-xhdpi-portrait.png" density="port-xhdpi"/>
 
-                <resource-file src="google-services.json" target="app/google-services.json" />
-                <resource-file src="build-extras.gradle" target="build-extras.gradle" />
         </platform>
 
     <splash src="res/android/screen-xxxhdpi-portrait.png" />

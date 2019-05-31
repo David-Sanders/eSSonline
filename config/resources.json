@@ -207,40 +207,15 @@
     "platform" : "android",
     "qualifier" : "hdpi"
   }, {
-    "tag" : "icon",
-    "filename" : "res/android/icon-192-xxxhdpi.png",
-    "platform" : "android",
-    "qualifier" : "xxxhdpi"
-  }, {
-    "tag" : "splash",
-    "filename" : "res/android/screen-hdpi-landscape.png",
-    "platform" : "android",
-    "qualifier" : "land-hdpi"
-  }, {
-    "tag" : "splash",
-    "filename" : "res/android/screen-ldpi-landscape.png",
-    "platform" : "android",
-    "qualifier" : "land-ldpi"
-  }, {
-    "tag" : "icon",
-    "filename" : "res/android/icon-48-mdpi.png",
-    "platform" : "android",
-    "qualifier" : "mdpi"
-  }, {
-    "tag" : "icon",
-    "filename" : "res/android/icon-96-xhdpi.png",
-    "platform" : "android",
-    "qualifier" : "xhdpi"
-  }, {
-    "tag" : "splash",
-    "filename" : "res/android/screen-xhdpi-portrait.png",
-    "platform" : "android",
-    "qualifier" : "port-xhdpi"
-  }, {
     "tag" : "splash",
     "filename" : "res/android/screen-ldpi-portrait.png",
     "platform" : "android",
     "qualifier" : "port-ldpi"
+  }, {
+    "tag" : "icon",
+    "filename" : "res/android/icon-192-xxxhdpi.png",
+    "platform" : "android",
+    "qualifier" : "xxxhdpi"
   }, {
     "tag" : "splash",
     "filename" : "res/android/screen-xxhdpi-landscape.png",
@@ -263,9 +238,24 @@
     "qualifier" : "ldpi"
   }, {
     "tag" : "splash",
+    "filename" : "res/android/screen-hdpi-landscape.png",
+    "platform" : "android",
+    "qualifier" : "land-hdpi"
+  }, {
+    "tag" : "splash",
+    "filename" : "res/android/screen-ldpi-landscape.png",
+    "platform" : "android",
+    "qualifier" : "land-ldpi"
+  }, {
+    "tag" : "splash",
     "filename" : "res/android/screen-hdpi-portrait.png",
     "platform" : "android",
     "qualifier" : "port-hdpi"
+  }, {
+    "tag" : "icon",
+    "filename" : "res/android/icon-48-mdpi.png",
+    "platform" : "android",
+    "qualifier" : "mdpi"
   }, {
     "tag" : "splash",
     "filename" : "res/android/screen-xhdpi-landscape.png",
@@ -276,5 +266,15 @@
     "filename" : "res/android/screen-xxxhdpi-portrait.png",
     "platform" : "android",
     "qualifier" : "port-xxxhdpi"
+  }, {
+    "tag" : "icon",
+    "filename" : "res/android/icon-96-xhdpi.png",
+    "platform" : "android",
+    "qualifier" : "xhdpi"
+  }, {
+    "tag" : "splash",
+    "filename" : "res/android/screen-xhdpi-portrait.png",
+    "platform" : "android",
+    "qualifier" : "port-xhdpi"
   } ]
 }
