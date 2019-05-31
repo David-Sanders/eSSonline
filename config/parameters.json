@@ -7,7 +7,7 @@
   "iosEnabled" : false,
   "androidEnabled" : true,
   "requirePin" : true,
-  "enableOffline" : true,
+  "enableOffline" : false,
   "permissions" : {
     "calendar" : false,
     "camera" : true,
