@@ -1,7 +1,7 @@
 {
   "url": "https://e-servicesuite100.mxapps.io",
-  "enableOffline": true,
-  "requirePin": true,
+  "enableOffline": false,
+  "requirePin": false,
   "updateAsync": false,
   "username": "",
   "password": ""

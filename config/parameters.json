@@ -1,12 +1,12 @@
 {
   "url" : "http://ess.e-servicesuite.com",
   "identifier" : "com.e-servicesuite.ess",
-  "version" : "0.0.31",
+  "version" : "0.0.33",
   "name" : "eSS online",
   "description" : "e-Service Suite online hybrid app",
   "iosEnabled" : false,
   "androidEnabled" : true,
-  "requirePin" : true,
+  "requirePin" : false,
   "enableOffline" : false,
   "permissions" : {
     "calendar" : false,
