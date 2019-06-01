@@ -1,7 +1,7 @@
 {
   "url": "http://ess.e-servicesuite.com",
   "enableOffline": false,
-  "requirePin": false,
+  "requirePin": true,
   "updateAsync": false,
   "username": "",
   "password": ""

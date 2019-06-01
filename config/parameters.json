@@ -6,7 +6,7 @@
   "description" : "e-Service Suite online hybrid app",
   "iosEnabled" : false,
   "androidEnabled" : true,
-  "requirePin" : false,
+  "requirePin" : true,
   "enableOffline" : false,
   "permissions" : {
     "calendar" : false,

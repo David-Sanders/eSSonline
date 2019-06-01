@@ -1,5 +1,5 @@
 {
-  "sandbox" : {
+  "production" : {
     "name" : "eSS online",
     "identifier" : "com.e-servicesuite.ess",
     "url" : "http://ess.e-servicesuite.com"
